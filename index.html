@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafaela Pizzaria</title>
+    <title>Davi Pizzaria</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@400;700&family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/pizza.ico" type="favicon da pizzaria">
 
 </head>
 <body>
@@ -34,59 +35,45 @@
             <a href="#" class="lista-menu__link">Sobremesas</a>
             
         </li>
+        
     </ul>
-        <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
-        <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>books</h1>
+        <img src="img/Logotipo-pizzaria.png" alt="Logo Pizzaria Davi" class="container__imagem">
+    
 
         <ul class="opções">
-            <input type="checkbox" id="opções-menu" class="opções__botão">
-            <label for="opções-menu" class="opcões__rotulo">
-            <li class="opções__item"><a href="#" class="opções__link">Categorias</a></li>
-            </label>
-
-            <ul class="lista-menu">
-                <li class="lista-menu__item"> 
-                    <a href="#" class="lista-menu__link">Programação</a>
-                </li>
-                <li class="lista-menu__item"> 
-                    <a href="#" class="lista-menu__link">Front-End</a>
-                </li>
-                <li class="lista-menu__item"> 
-                    <a href="#" class="lista-menu__link">Infraestrutura</a>
-                </li>
-                <li class="lista-menu__item"> 
-                    <a href="#" class="lista-menu__link">Business</a>
-                </li>
-                <li class="lista-menu__item"> 
-                    <a href="#" class="lista-menu__link">Design & UX</a>
-                </li>
             </ul>
-
-            <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
-            <li class="opções__item"><a href="#" class="opções__link">Minha Estante</a></li>
+            <li class="opções__item"><a class="opções__link">Nossa Casa</a> a</li>
+            <li class="opções__item"><a class="opções__link">Sabores</a></li>
+            <li class="opções__item"><a class="opções__link">Cardápio</a></li>
 
         </ul>
 
     </div>
     
     <div class="container">
-        <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem-transparente"></a>
+     
         <a href="#" class="container__link">
-            <img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem">
-            <p class="container__texto">Minha sacola</p>
+            <img src="img/carrinho-compras-preto.png" alt="Carrinho de compras" class="container__imagem">
+            <p class="container__texto">Minhas Compras</p>
         </a>
         <a href="#" class= "container__link">
-            <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
-            <p class="container__texto">Meu perfil</p>
+            <img src="img/perfil-preto.png" alt="Login" class="container__imagem">
+            <p class="container__texto">Login</p>
         </a>
     </div>
    
     </header>
     
     <section class="banner">
-        <h2 class="banner__titulo">Já sabe  por onde começar?</h2>
-        <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+        <picture>
+            <source media="(max-width:670px )" srcset="img/pizza-pequena.jpeg">
+            <img class="imgbanner" src="img/pizza party!.png" alt="pizzaria do Davi">
+        </picture>
+            
+        <h2
+        class="banner__titulo">Já sabe  o que escolher? <br></h2>
+        <p class="banner__texto">Encontre em nossa casa aquilo que você deseja!</p>
+        <input type="search" class="banner__pesquisa" placeholder= " Qual será sua próxima pizza?">
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">+ de 50 Sabores !</h2>
@@ -105,37 +92,15 @@
               <div class="swiper-slide"><img src="img/pizzamms.jpg" alt="pizza de mms"></div>
               <div class="swiper-slide"><img src="img/4queijos.jpeg" alt="pizza de 4 queijos"></div>
               <div class="swiper-slide"><img src="img/calabresa.jpg" alt="pizza de calabresa"></div>
+              
               </div>
       
   </div>
-  <!--1ª linha-->
-  <div class="card">
-    <!--1ª coluna-->
-    <div class="card__descrição">
-        <div class="descrição">
-            <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
-            <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
-            <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
-        </div>
-        <!-- 2ª coluna -->
-        <img src="img/foto-angular.svg" alt="descrição__imagem">
-    </div>
 
-    <!--2ª linha-->
-    <div class="card__botões">
-    <!-- 1ª coluna -->
-    <ul class="botões">
-        <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar Livro"></li>
-        <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
-    </ul>
-    <!-- 2ª coluna -->
-
-    <a href="#" class="botões__ancora">Saiba Mais</a>
 </div>
 </div>
 </div>
 </section>
-
 
 
 <!-- If we need navigation buttons -->
@@ -149,23 +114,18 @@
         <div class="card__descrição">
             <!-- 1º coluna -->
             <div class="descrição">
-                <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
-                <h3 class="descrição__titulo">Autora do Mês</h3>
-                <h2 class="descrição__titulo-livro">Juliana Agarikov</h2>
-                <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.
+                <img src="img/estrelas.png" alt="Avaliação 5 estrelas">
+                <br>
+                <h3 class="descrição__titulo">Funcionário destaque do Mês</h3>
+                <h2 class="descrição__titulo-livro">Rafaela Cristina</h2>
+                <br>
+                <p class="descrição__texto">Chefe de Cozinha na Davi Pizzaria
                 </p>
             </div>
             <!-- 2º coluna -->
-            <img src="img/Perfil-escritora 1.svg" class="descrição__imagem">
+            <img src="img/rafaela1.jpeg" class="descrição__imagem">
         </div>
 
-        <!-- 2º linha -->
-        <div class="card__botões">
-            <!-- 1º coluna -->
-            <ul class="botões">
-                <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
-                <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
-            </ul>
             <!-- 2º coluna -->
             <a href="#" class="botões__ancora">Saiba mais</a>
         </div>
@@ -174,112 +134,36 @@
 </section>
 
     <section class="tópicos">
-        <h2 class="tópicos__título">TÓPICOS VISITADOS RECENTEMENTE</h2>
-        <ul class="tópicos__lista">
+        <h2 class="carrossel__titulo">TÓPICOS VISITADOS RECENTEMENTE </h2>
+        <ul class="tópicos__lista" >
             <li class="tópicos__item">
-                <a href="#" class="tópicos__link">Android</a>
+                <a href="#" class="tópicos__link">Pizzas</a>
     
             </li>
             <li class="tópicos__item">
-                <a href="#" class="tópicos__link">Marketing Digital</a>
+                <a href="#" class="tópicos__link">Massas</a>
     
             </li>
             <li class="tópicos__item">
-                <a href="#" class="tópicos__link">Agile</a>
+                <a href="#" class="tópicos__link">Bebidas e Refrigerantes</a>
     
             </li>
             <li class="tópicos__item">
-                <a href="#" class="tópicos__link">Startups</a>
+                <a href="#" class="tópicos__link">Sobremesas</a>
     
             </li>
             <li class="tópicos__item">
-                <a href="#" class="tópicos__link">HTML E CSS</a>
+                <a href="#" class="tópicos__link">Entrega</a>
     
             </li>
             <li class="tópicos__item">
-                <a href="#" class="tópicos__link">Python</a>
-    
-            </li>
-            <li class="tópicos__item">
-                <a href="#" class="tópicos__link">O O </a>
-    
-            </li>
-            <li class="tópicos__item">
-                <a href="#" class="tópicos__link">JAVA</a>
-    
+                <a href="#" class="tópicos__link">Cardápio</a>
+
             </li>
         </ul>
     </section>
-
-    <section class="contato">
-    <div class="contato__descrição">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-    </div>
-        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+      
     </section>
-
-    <hr/>
-    <footer class="rodapé">
-        <h2 class="rodapé__titulo">Grupo Alura</h2>
-        <ul class="lista-rodapé">
-            <li class="lista-rodapé__título">Educação</li>
-        <li class="lista-rodapé__item"><img src="img/CasaDoCodigo.svg" alt="Logo da casa do código">
-        <a href="#" class="lista-rodapé__link">Casa do código</a>
-        </li>
-        <li class="lista-rodapé__item"><img src="img/Caelum.svg" alt="Logo da Caelum">
-            <a href="#" class="lista-rodapé__link">Caelum</a>
-            </li>
-    </ul>
-
-    <ul class="lista-rodapé">
-        <li class="lista-rodapé__título">Educação online</li>
-        <li class="lista-rodapé__item"><img src="img/Alura.svg" alt="Logo da Alura">
-        <a href="#" class="lista-rodapé__link">Alura</a>
-        </li>
-        <li class="lista-rodapé__item"><img src="img/AluraEmpresas.svg" alt="Logo da Alura Empresas">
-        <a href="#" class="lista-rodapé__link">Alura para Empresas</a>
-        </li>
-        <li class="lista-rodapé__item"><img src="img/AluraLATAM.svg" alt="Logo da Alura LATAM">
-        <a href="#" class="lista-rodapé__link">Alura LATAM</a>
-        </li>
-        <li class="lista-rodapé__item"><img src="img/AluraStart.svg" alt="Logo da Alura Star">
-        <a href="#" class="lista-rodapé__link">Alura Start</a>
-        </li>
-        <li class="lista-rodapé__item"><img src="img/MusicDot.svg" alt="Logo da Music Dot">
-        <a href="#" class="lista-rodapé__link">Music Dot</a>
-        </li>
-        <li class="lista-rodapé__item"><img src="img/AluraLingua.svg" alt="Logo da Alura língua">
-        <a href="#" class="lista-rodapé__link">Alura Língua</a>
-        </li>
-        <li class="lista-rodapé__item"><img src="img/PM3.svg" alt="Logo da PM3">
-        <a href="#" class="lista-rodapé__link">PM3</a>
-        </li>
-    </ul>
-
-<ul class="lista-rodapé">
-<li class="lista-rodapé__titulo">Comunidade</li>
-<li class="lista-rodapé__item"><img src="img/HipstersTech.svg" alt="Logo da Hipsters tecnologia">
-<a href="#" class="lista-rodapé__link">Hipsters ponto TECH</a>
-</li>
-<li class="lista-rodapé__item"><img src="img/ScubaDev.svg" alt="Logo da Scuba Dev">
-<a href="#" class="lista-rodapé__link">Scuba dev</a>
-</li>
-<li class="lista-rodapé__item"><img src="img/LayersTech.svg" alt="Logo da Layers ponto TECH">
-<a href="#" class="lista-rodapé__link">Layers Ponto TECH</a>
-</li>
-<li class="lista-rodapé__item"><img src="img/LikeABoss.svg" alt="Logo da Like a boss">
-<a href="#" class="lista-rodapé__link">Like a Boss</a>
-</li>
-<li class="lista-rodapé__item"><img src="img/CarreiraSemFronteira.svg" alt="Logo da Carreiras sem fronteiras">
-<a href="#" class="lista-rodapé__link">Carreira sem fronteiras</a>
-</li>
-<li class="lista-rodapé__item"><img src="img/HipstersJobs.svg" alt="Logo da Hipsters Jobs">
-<a href="#" class="lista-rodapé__link">Hipsters ponto JOBS</a>
-</li>
-<li class="lista-rodapé__item"><img src="img/GUJ.svg" alt="Logo da GUJ">
-<a href="#" class="lista-rodapé__link">GUJ</a>
-    </li>
 </ul>
         </footer>
 
@@ -296,4 +180,11 @@ type: 'bullets',
 
 </script>
 </body>
+<footer>
+    <img src="img/Logotipo-pizzaria.png">
+    <p class="copyright">&copy; Copyright Rafaela Luz</p>
+    
+</footer>
+</body>
+</html>
 </html>

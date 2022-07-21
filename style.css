@@ -6,22 +6,119 @@
 @import url("styles/rodapé.css");
 
 :root {
-    --cor-de-fundo: #205e27;
+    --cor-de-fundo: #007afc;
     --branco: white;
     --preto: #100e0e;
-    --azul-degrade: linear-gradient (to bottom, rgb(246, 131, 131) 10px, rgb(30, 114, 30));
+ 
     --fonte-principal: "Poppins";
     --azul: rgb(34, 80, 34);
     --fonte-secundario: "Josefin Sans";
     --preto: #000000;
     --cinza: #474646;
     --cinza-claro: #858585;
+    --marrom: #d24219c9;
 }
 
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 400;
 
 }
+
+div.container{
+    color: var(--cinza-claro);
+}
+
+footer {
+	text-align: center;
+	background:  white;
+	padding: 20px  ;
+    color: black;
+	
+}
+
+.copyright {
+	color: black ;
+	font-size: 16px;
+	margin: 12px 0 0;
+}
+.header.cabeçalho {
+    background-color: var(--cinza-claro);
+}
+
+.cabeçalho{
+    background-color: var(--cinza-claro);
+    color:white
+}
+
+.opções__link:hover{
+    color: var(--cor-de-fundo);
+    
+
+}
+
+.sabores li:hover {
+	border-color: var(--cinza-claro);
+}
+
+.opções__link:hover {
+	border-color: #088C19;	
+    color: var(--cor-de-fundo);
+}
+
+.sabores li:hover h2 {
+	font-size: 34px;
+}
+
+.container__texto:hover {
+color: var(--cor-de-fundo);
+}
+
+.banner {
+    width: 100%;
+    margin-top: auto;
+
+ 
+}
+
+.swiper-button-next {
+    break-after: var(--branco);
+}
+
+main {
+    min-width:350px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+main img {
+
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.tópicos {
+    min-width:350px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.carrossel__titulo  {
+    background-color: white;
+}
+
+.tópicos__lista {
+    background-color: var(--cinza);
+}
+
+    .imgbanner {
+        border-radius: 50px;
+    }
+
+    .banner__titulo {
+        margin-top: 60px;
+    }
